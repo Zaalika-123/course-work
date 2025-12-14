@@ -1,0 +1,101 @@
+/* Global page styling */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Page container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation bar */
+nav {
+  background-color: #1f2937;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h2 {
+  margin-top: 0;
+  color: #1f2937;
+}
+
+/* Forms */
+form div {
+  margin-bottom: 12px;
+}
+
+label {
+  display: inline-block;
+  width: 180px;
+  font-weight: bold;
+}
+
+input {
+  padding: 6px;
+  width: 220px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  background-color: #2563eb;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #e5e7eb;
+}
+
+/* Messages */
+.success {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+}
